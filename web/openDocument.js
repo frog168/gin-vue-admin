@@ -15,7 +15,7 @@ switch (process.platform) {
         cmd = 'start';
         child_process.exec(cmd + ' ' + url);
         break;
-
+    
     case 'darwin':
         cmd = 'open';
         child_process.exec(cmd + ' ' + url);
